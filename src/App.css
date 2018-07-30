@@ -2,27 +2,117 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.btn,
+.btn-large,
+.btn-small {
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: .5px;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.btn-large,
+.btn-small,
+.btn-flat {
+  font-size: 14px;
+  outline: 0;
 }
 
-.App-title {
-  font-size: 1.5em;
+.btn,
+.btn-large,
+.btn-small,
+.btn-flat {
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.App-intro {
-  font-size: large;
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.sidenav {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.z-depth-1-half,
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover,
+.btn-floating:hover {
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2)
+}
+
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+  background-color: #2bbbad
+}
+
+.letters-container {
+  max-width: 573px;
+  margin: 0 auto;
+}
+
+.btn-letter {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 2px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.word-container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.lettre-hide {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #fff;
+  line-height: 60px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  background: #00BCD4;
+}
+
+.btn-disabled,
+.btn-disabled:hover
+ {
+  background-color: #16887d
+}
+
+.btn-control {
+  background-color: #00BCD4
+}
+
+.btn-control:hover {
+  background-color: rgb(0, 206, 233)
 }

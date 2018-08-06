@@ -103,6 +103,13 @@ nav,
   background: #00BCD4;
 }
 
+.space {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #fff;
+}
+
 .btn-disabled,
 .btn-disabled:hover
  {

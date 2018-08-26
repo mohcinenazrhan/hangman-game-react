@@ -123,3 +123,28 @@ nav,
 .btn-control:hover {
   background-color: rgb(0, 206, 233)
 }
+
+.btn-wrong,
+.stop-help {
+  background-color: rgb(212, 0, 18)
+}
+
+.btn-wrong:hover,
+.stop-help:hover {
+  background-color: rgb(212, 0, 18)
+}
+
+.btn-correct {
+  background-color: #3ec2b5
+}
+
+.btn-correct:hover {
+  background-color: #3ec2b5
+}
+
+.draw-img-progress {
+  background: url('progress draw.png');
+  width: 208px;
+  height: 147px;
+  margin: 0 auto;
+}

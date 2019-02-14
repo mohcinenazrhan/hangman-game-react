@@ -220,7 +220,7 @@ class App extends Component {
     })
 
     // console.log(expression);
-
+    
     // let first = true
     // const expression = this.state.expression.map((row) => {
     //   if (row.hidden && first) {
@@ -233,7 +233,8 @@ class App extends Component {
     this.setState({
       score: this.state.score - 1,
       help: this.state.help - 1,
-      expression
+      expression,
+      isCompleted: this.isCompleted(expression)
     })
   }
 

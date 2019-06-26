@@ -308,13 +308,15 @@ class App extends Component {
 		return (
 			<div className="App">
 				<div className="head-container">
-					<button
-						disabled={!help}
-						className={(!help ? 'stop-help' : '') + ' btn btn-control'}
-						onClick={() => this.getHelp()}
-					>
-						Help = -1 score
-					</button>
+					{!isCompleted && (
+						<button
+							disabled={!help}
+							className={(!help ? 'stop-help' : '') + ' btn btn-control'}
+							onClick={() => this.getHelp()}
+						>
+							Help = -1 score
+						</button>
+					)}
 					<p> Nombre d'essais : {nbrTry} </p>
 					<p> You have {stillTry} wrong attempt </p>
 					<p> Votre score : {score} </p>
